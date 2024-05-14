@@ -7,6 +7,7 @@ public:
 	int id;
 	string nama;
 
+	void setId();
 };
 
 int main()
