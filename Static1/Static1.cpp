@@ -8,6 +8,12 @@ public:
 	string nama;
 
 	void setId();
+
+	void printAll();
+	mahasiswa(string pnama) {
+		nama = pnama;
+		setID(); 
+	}
 };
 
 int main()
